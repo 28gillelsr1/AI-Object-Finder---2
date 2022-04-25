@@ -1,0 +1,39 @@
+body{
+    background-size:cover;
+}
+.heading{
+    font-size: 23px;
+    width:100%;
+    background-color:blueviolet;
+    margin:0px;
+    margin-bottom:0%;
+    font-weight:bold;
+}
+#object_detected, #status{
+    margin-top:5px;
+}
+
+
+#start{
+    font-size:18px;
+}
+#status, #object_detected, #start, #span{
+
+    font-size:18px;
+}
+.copy_right_footer{
+    position:fixed;
+    color:chartreuse;
+    bottom:0%;
+    width:100%;
+    background-color:dodgerblue;
+    line-height:3;
+    text-align:left;
+}
+canvas{
+    border:2px solid white;
+    border-radius:10px;
+    margin-top:130px;
+    margin-bottom:100px;
+    box-shadow:5px 5px 5px white;
+}
